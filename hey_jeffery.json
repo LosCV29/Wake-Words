@@ -1,0 +1,14 @@
+{
+  "type": "micro",
+  "wake_word": "hey jeffery",
+  "author": "LosCV29",
+  "website": "https://github.com/LosCV29/Wake-Words",
+  "model": "hey_jeffery.tflite",
+  "version": 2,
+  "trained_languages": ["en"],
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10,
+    "minimum_esphome_version": "2024.2.0"
+  }
+}
