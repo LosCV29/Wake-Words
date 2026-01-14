@@ -3,7 +3,7 @@
   "wake_word": "hey jeffery",
   "author": "Custom trained",
   "website": "",
-  "model": "https://raw.githubusercontent.com/LosCV29/Wake-Words/main/hey_jeffery.tflite",
+  "model": "hey_jeffery.tflite",
   "version": 2,
   "trained_languages": ["en"],
   "micro": {
@@ -11,6 +11,6 @@
     "sliding_window_size": 10,
     "feature_step_size": 10,
     "tensor_arena_size": 30000,
-    "minimum_esphome_version": "2024.7"
+    "minimum_esphome_version": "2024.7.0"
   }
 }
