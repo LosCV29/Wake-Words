@@ -1,7 +1,7 @@
 {
   "wake_word": "hey_jeffery",
   "version": 1,
-  "model": "hey_jeffery.tflite",
+  "model": "https://raw.githubusercontent.com/LosCV29/Wake-Words/main/hey_jeffery.tflite",
   "author": "Custom trained",
   "website": "",
   "type": "micro",
