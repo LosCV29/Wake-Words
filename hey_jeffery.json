@@ -3,7 +3,7 @@
   "wake_word": "hey jeffery",
   "author": "Custom trained",
   "website": "",
-  "model": "https://github.com/LosCV29/Wake-Words/releases/download/v1.0/hey_jeffery.tflite",
+  "model": "hey_jeffery.tflite",
   "version": 2,
   "trained_languages": ["en"],
   "micro": {
