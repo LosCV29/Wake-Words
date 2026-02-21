@@ -1,11 +1,16 @@
 {
+  "type": "micro",
   "wake_word": "hey_jefree",
   "author": "LosCV29",
   "website": "https://github.com/LosCV29/Wake-Words",
-  "model": "https://raw.githubusercontent.com/LosCV29/Wake-Words/refs/heads/main/hey_jefree.tflite",
+  "model": "hey_jefree.tflite",
   "version": 2,
-  "micro_wake_word_version": 2,
-  "trained_languages": [
-    "en"
-  ]
+  "trained_languages": ["en"],
+  "micro": {
+    "probability_cutoff": 0.30,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
+  }
 }
