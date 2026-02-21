@@ -3,7 +3,7 @@
   "wake_word": "hey jefree",
   "author": "LosCV29",
   "website": "https://github.com/LosCV29/Wake-Words",
-  "model": "https://raw.githubusercontent.com/LosCV29/Wake-Words/refs/heads/main/hey_jefree.tflite",
+  "model": "hey_jefree.tflite",
   "version": 2,
   "micro": {
     "probability_cutoff": 0.93,
