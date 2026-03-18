@@ -3,7 +3,7 @@
   "wake_word": "hey jefree",
   "author": "LosCV29",
   "website": "https://github.com/LosCV29/Wake-Words",
-  "model": "hey_jefree.tflite",
+  "model": "hey_jeffery.tflite",
   "version": 2,
   "trained_languages": ["en"],
   "micro": {
