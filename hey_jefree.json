@@ -1,16 +1,18 @@
 {
   "type": "micro",
-  "wake_word": "hey jeffery",
+  "wake_word": "hey_jeffery",
   "author": "LosCV29",
   "website": "https://github.com/LosCV29/Wake-Words",
   "model": "hey_jeffery.tflite",
+  "trained_languages": [
+    "en"
+  ],
   "version": 2,
-  "trained_languages": ["en"],
   "micro": {
     "probability_cutoff": 0.93,
     "sliding_window_size": 10,
     "feature_step_size": 10,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2024.7"
+    "tensor_arena_size": 30000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
