@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "hey jefree",
+  "wake_word": "hey jeffery",
   "author": "LosCV29",
   "website": "https://github.com/LosCV29/Wake-Words",
   "model": "hey_jeffery.tflite",
